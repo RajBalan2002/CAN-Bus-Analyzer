@@ -24,9 +24,9 @@ can_log.csv      → Output: Full CAN message log
 
 # Technologies and Libraries
 
-[python-can](https://python-can.readthedocs.io/en/master/)
-[SocketCAN](https://www.kernel.org/doc/Documentation/networking/can.txt)
-[Streamlit](https://streamlit.io/)
+- [python-can](https://python-can.readthedocs.io/en/master/)
+- [SocketCAN](https://www.kernel.org/doc/Documentation/networking/can.txt)
+- [Streamlit](https://streamlit.io/)
 
 # Setup and Run Instructions
 
@@ -37,13 +37,13 @@ can_log.csv      → Output: Full CAN message log
 
 ### Setup Virtual CAN interface in Linux
 
-"sudo modprobe vcan"
-"sudo ip link add dev vcan0 type vcan"
-"sudo ip link set up vcan0"
+- "sudo modprobe vcan"
+- "sudo ip link add dev vcan0 type vcan"
+- "sudo ip link set up vcan0"
 
 ### Run the dashboard
 
-streamlit run can_dashboard.py
+`streamlit run can_dashboard.py`
 
 
 
